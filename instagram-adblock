@@ -1,0 +1,12 @@
+[Adblock Plus 2.0]
+! Version: 0.1
+! Title: Block Instagram Rabbit Holes
+! Last modified: 2023-12-12
+! Expires: 1 days (update frequency)
+! Homepage: github.com/riesentoaster/instagram-adblock
+!
+
+instagram.com##span[aria-describedBy^=":r"]:has(svg[aria-label="Reels"])
+instagram.com##span[aria-describedBy^=":r"]:has(svg[aria-label="Explore"])
+instagram.com##article+div~article
+instagram.com##article+div
